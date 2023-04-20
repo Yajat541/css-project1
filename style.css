@@ -1,0 +1,199 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.navbar{
+    height: 47px;
+    background-color: #FFFFFF;
+    display: flex;
+    padding: 20px 108px;
+    border: 2px solid white;
+}
+.blue{
+    color:#00A5EC;
+}
+.navbar:hover{
+    border: 1px solid #00A5EC;
+}
+section{
+    height: 1368px;
+    background-color: #f7f7f7;
+}
+section:hover{
+    border: 1px solid #00A5EC;
+}
+.middlecontainer{
+    
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    text-decoration: none;
+    position: absolute;
+    left: 1132px;
+    top: 142px;
+}
+.circle{
+    height: 50px;
+    width: 50px;
+    background-color: blue;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.plus{
+    color: white;
+    font-size: 35px;
+    font-weight: bold;
+}
+.middletext{
+    color: black;
+    margin-left: 15px;
+}
+.lowercontainer{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 75px;
+    justify-content: flex-start;
+    position: absolute;
+    top: 268px;
+    left: 139px;
+}
+.lbox{
+    display: flex;
+    flex-direction: column;
+    width: 352px;
+    height: 360px;
+    border: 3px solid black;
+    background-color:white;
+    border-radius:20px;
+}
+/* .lbox1{
+    margin: -159px -146px;
+} */
+
+.headingtext{
+    color: #00A5EC;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 34px 55px 34px 30px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.form{
+    margin: 23px 161px 1px 30px;
+    width: 160.5px;
+    height: 85px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+.form label{
+    margin-left: 13px;
+    font-size: 13px;
+}
+
+.form input{
+width: 30px;
+height: 30px;
+}
+.uncheckedbox,.checkcheckbox{
+    display: flex;
+align-items: center;
+}
+.checkcheckbox label{
+text-decoration: line-through;
+}
+.parent{
+    filter: blur(4px);
+}
+.addtask{
+    width: 326px;
+    height: 174px;
+    border: 1px solid black;
+    background-color: white;
+    position: absolute;
+    left: 36%;
+    bottom: 50%;
+    border-radius: 10px;
+}
+.addtask h4{
+    font-size: 20px;
+    padding: 11px;
+}
+.cross{
+    padding-left:117px;
+    color: lightgrey;
+}
+.addtask a{
+    text-decoration: none;
+}
+.addtask input{
+    width: 300px;
+    height: 28px;
+    margin: 6px;
+    background-color: rgba(211, 211, 211, 0.24);
+}
+.addtask ::placeholder{
+    padding-left: 5px;
+}
+.addtask button{
+    margin-top: 8px;
+    margin-left: 218px;
+    padding: 8px;
+    background-color: #00A5EC
+}
+.mid{
+    position: absolute;
+    top: 218px;
+    left: 745px;
+}
+.back{
+    width: 50px;
+    height: 50px;
+    background-color: black;
+    position: relative;
+    left: 0;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.material-symbols-rounded{
+    color: white;
+}
+.backtext{
+    position: relative;
+    right: 394px;
+    width: 106px;
+    display: flex;
+    align-items: center;
+}
+.backtext p{
+    margin-left: 10px;
+    font-size: 20px;
+}
+.indexThirdHtml{
+    background-color:#F7F7F7;
+}
+.middlecontainerthird{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position:relative;
+    left: -234px;
+}
+.lastparent{
+    filter: blur(6px);
+}
+.arrangebox{
+    margin: -10px 127px;
+}
+.lboxlast{
+    position: absolute;
+    top: -184px;
+    left: -144px;
+}
