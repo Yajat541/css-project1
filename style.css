@@ -190,18 +190,16 @@ text-decoration: line-through;
 .lastparent{
     filter: blur(6px);
 }
-.arrangebox{
-    margin: -10px 127px;
-}
-/* .lboxlast{
-    position: absolute;
-    top: -184px;
-    left: -144px;
+/* .arrangebox{
+    margin: -10px 126px;
 } */
+.arrangebox{
+    margin-left: 120px;
+}
 .lastpage{
     display:flex;
     justify-content: center;
     position: relative;
     top: 8%;
-    left: 2%;
+    left:2%
 }
