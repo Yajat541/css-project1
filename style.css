@@ -9,6 +9,7 @@
     display: flex;
     padding: 20px 108px;
     border: 2px solid white;
+    position: relative;
 }
 .blue{
     color:#00A5EC;
@@ -192,8 +193,15 @@ text-decoration: line-through;
 .arrangebox{
     margin: -10px 127px;
 }
-.lboxlast{
+/* .lboxlast{
     position: absolute;
     top: -184px;
     left: -144px;
+} */
+.lastpage{
+    display:flex;
+    justify-content: center;
+    position: relative;
+    top: 8%;
+    left: 2%;
 }
